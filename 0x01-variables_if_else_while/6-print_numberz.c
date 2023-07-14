@@ -3,7 +3,6 @@
  * main - Prog Entry point
  * Return: Always 0 (success)
  */
-
 int main(void)
 {
 	int c;
@@ -14,6 +13,6 @@ int main(void)
 			putchar(c + '0');
 			c++;
 		}
-        putchar('\n');
-        return (0);
-}	
+	putchar('\n');
+	return (0);
+}
